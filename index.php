@@ -4,7 +4,7 @@
 // Press the 'Run' button on the top to start the web server,
 // then click the URL that is emitted to the Output tab of the console
 
-echo "Jake McGhee's CST 336 Workspace!";
+echo "Jake McGhee's CST 336 Internet Programming";
 
 ?>
 </body>
