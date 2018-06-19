@@ -12,6 +12,6 @@ echo "Jake McGhee's CST 336 Internet Programming";
 
 <h2> Labs </h2>
 
-<a href="porfolio/index.html">Lab 1</a>
+<a href="portfolio/index.html">Lab 1</a>
 
 </html>
