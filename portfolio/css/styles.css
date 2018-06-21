@@ -13,8 +13,8 @@ header, main, nav, footer {
     text-align: center;
 }
 
-nav a { /* linkgs within "nav" container */
-    padding :15px;
+nav a { /* links within "nav" container */
+    padding: 15px;
     padding-bottom: 4px;
     font-size: 1.8em;
     text-decoration: none;    /* removes underline */
@@ -74,4 +74,8 @@ footer {
     clear: left;
     color: darkgrey;
     font-size: .8em
+}
+
+.half-width {
+    width: 50%;
 }

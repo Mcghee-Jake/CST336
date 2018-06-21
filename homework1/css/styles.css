@@ -1,0 +1,128 @@
+body {
+    margin: 0px; /* removes default margin from the page */
+}
+
+nav {
+  width: 100%;
+  background-color: #000;
+  overflow: hidden;
+  font-family: 'Righteous', cursive;
+  margin: 0px;
+}
+
+nav a {
+    float: left;
+    background-color: #000;
+    padding: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:hover {
+    color: #ff5050;
+}
+
+
+main {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+h1 {
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    font-size: 100px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-family: 'Righteous', cursive;
+    font-size: 40px;
+    margin-left: 20px;
+    margin-bottom: -10px;
+}
+
+h3 {
+    font-family: 'Righteous', cursive;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+address {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+#title {
+    float: left;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+#menu {
+    float: right;
+    padding-top: 5px;
+    padding-right: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+.download {
+    font-family: 'Righteous', cursive;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    background-color: #000;
+    padding: 20px;
+    margin: 5px;
+    border-style: solid;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.download:hover {
+    color: #000;
+    border-color: #000;
+    background-color: #fff;
+}
+
+.sources {
+    margin-top: -20px;
+    margin-left: 80px;
+}
+
+.resource {
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none; 
+    font-size: 20px;
+    color: #000;
+}
+
+.resource:hover {
+    color: #ff5050
+}
+
+.link {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link:hover {
+    color: #ff5050;
+}
