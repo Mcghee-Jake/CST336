@@ -8,6 +8,8 @@
        
         $letter_count = count_letters($kitten_basket);
         display_letter_count($letter_count);
+        
+        display_refresh_btn();
     }
     
     function get_kitten_basket($all_kittens) {
@@ -54,6 +56,10 @@
             }
         }
         echo "</div></div>";
+    }
+    
+    function display_refresh_btn() {
+        echo "<br/><br/><form><input type='submit' value='Refresh'/></form>";
     }
 
     
