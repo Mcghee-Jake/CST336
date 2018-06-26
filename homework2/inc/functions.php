@@ -59,7 +59,7 @@
     }
     
     function display_refresh_btn() {
-        echo "<br/><br/><form><input type='submit' value='Refresh'/></form>";
+        echo "<br/><br/><form><input type='submit' value='Refresh'/></form><br/><br/>";
     }
 
     
