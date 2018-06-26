@@ -1,0 +1,58 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #1affa3;
+}
+
+#kitten_container {
+    text-align: center;
+}
+
+.portrait {
+    display: inline-block;
+    background-color: #fff;
+    border-style: solid;
+    border-color: #fff;
+    border-width: 5px;
+    border-radius: 25px;
+    margin: 25px;
+    box-shadow: 10px 10px 10px #00995c;
+}
+
+img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+h3 {
+    font-family: 'Shadows Into Light', cursive;
+    color: #404040;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+}
+
+#letter_counts_container {
+    text-align: center;
+}
+
+#letter_counts {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 25px;
+    color: #404040;
+    font-weight: bold;
+    background-color: #fff;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px #00995c;
+}

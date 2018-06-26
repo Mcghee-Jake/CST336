@@ -19,5 +19,7 @@ echo "Jake McGhee's CST 336 Internet Programming";
 <h2> Homework </h2>
 
 <a href="homework1/index.html">Homework 1</a>
+<br/>
+<a href="homework2/index.php">Homework 2</a>
 
 </html>
