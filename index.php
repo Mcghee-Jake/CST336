@@ -13,19 +13,22 @@ echo "Jake McGhee's CST 336 Internet Programming";
 <h2> Labs </h2>
 
 <a href="portfolio/index.html">Lab 1</a>
-<br/>
+<br>
 <a href="777/index.php">Lab 2</a>
-<br/>
+<br>
 <a href="Slider/index.php">Lab 3</a>
-<br/>
+<br>
 <a href="scart/index.php">Lab 4</a>
+<br>
+<a href="ottermart_search/index.php">Lab 4</a>
+<br>
 
 <h2> Homework </h2>
 
 <a href="homework1/index.html">Homework 1</a>
-<br/>
+<br>
 <a href="homework2/index.php">Homework 2</a>
-<br/>
+<br>
 <a href="homework3/index.php">Homework 3</a>
 
 </html>
