@@ -20,7 +20,9 @@ echo "Jake McGhee's CST 336 Internet Programming";
 <br>
 <a href="scart/index.php">Lab 4</a>
 <br>
-<a href="ottermart_search/index.php">Lab 4</a>
+<a href="ottermart_search/index.php">Lab 5</a>
+<br>
+<a href="ottermart_admin/login.php">Lab 6</a>
 <br>
 
 <h2> Homework </h2>
