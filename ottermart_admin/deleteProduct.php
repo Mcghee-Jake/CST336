@@ -3,7 +3,7 @@
     
     $conn = getDatabaseConnection("ottermart");
     
-    $sql = "DELETE FROM om_product WHERE productID = ".$_GET['productId'];
+    $sql = "DELETE FROM om_product WHERE productId = ".$_GET['productId'];
     $statement = $conn->prepare($sql);
     $statement->execute();
     

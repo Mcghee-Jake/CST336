@@ -52,7 +52,8 @@
         
         $statement = $conn->prepare($sql);
         $statement->execute($namedParameters);
-        echo "Product has been updated!";
+        
+        header("Location: admin.php");
     }
 
 ?>
@@ -61,10 +62,12 @@
 <html>
     <head>
         <title>Ottermart Admin</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css"/>
     </head>
     <body>
         
-        <form>
+        <form class="shrink">
             <input type="hidden" name="productId" value="<?=$product['productId']?>"/>
             <strong>Product name</strong> <input type="text" class="form-control" value="<?=$product['productName']?>" name="productName"><br>
             <strong>Description</strong> <textarea name="description" class="form-control" cols=50 rows=4><?=$product['productDescription']?></textarea><br>

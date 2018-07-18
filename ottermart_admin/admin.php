@@ -21,17 +21,33 @@
     }
 ?>
 
+<script>
+    function confirmDelete() {
+        
+        return confirm("Are you sure you want to delete this?");
+    }
+</script>
+
 <!DOCTYPE html>
 <html>
     <head>
         <title>Ottermart Admin</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css"/>
     </head>
 
     <body>
         
-        <form action="addProduct.php">
-            <input type="submit" class='btn btn-secondary' id="beginning" name="addproduct" value="Add Product"/>
-        </form>
+        <div class="center">
+            <br>
+            <form action="logout.php">
+                <input type="submit" class="btn btn-secondary" id="beginning" value="Logout"/>
+            </form>
+            <form action="addProduct.php">
+                <input type="submit" class='btn btn-secondary' id="beginning" name="addproduct" value="Add Product"/>
+            </form>
+        </div>
+
         
         <?php
             $records = displayAllProducts();
@@ -56,9 +72,9 @@
                 echo "<td><a class='btn btn-primary' href='updateProduct.php?productId=".$record['productId']."'>Update</a></td>";
                 
                 echo "<form action='deleteProduct.php' onsubmit='return confirmDelete()'>";
-                echo "<input type='hidden' name='productId' value=".$record['productId']."/>";
+                echo "<input type='hidden' name='productId' value=".$record['productId']." />";
                 echo "<td><input type='submit' class = 'btn btn-danger' value='Remove'></td>";
-                echo "<form>";
+                echo "</form>";
             }
             echo "</tbody>";
             echo "</table>";

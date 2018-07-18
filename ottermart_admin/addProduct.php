@@ -35,6 +35,8 @@
         $namedParameters[':catId'] = $catId;
         $statement = $conn->prepare($sql);
         $statement->execute($namedParameters);
+        
+        header("Location: admin.php");
     }
 
 ?>
@@ -43,10 +45,12 @@
 <html>
     <head>
         <title>Ottermart Admin</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css"/>
     </head>
     <body>
-        
-        <form>
+        <div class="shrink">
+            <form>
             <strong>Product name</strong> <input type="text" class="form-control" name="productName"><br>
             <strong>Description</strong> <textarea name="description" class="form-control" cols=50 rows=4></textarea><br>
             <strong>Price</strong> <input type="text" class="form-control" name="price"><br>
@@ -57,7 +61,9 @@
             <strong>Set Image Url</strong> <input type="text" name="productImage" class="form-control"><br>
             <input type="submit" name=submitProduct class="btn btn-primary" value="Add Product">
             </select>
-        </form>
+            </form>    
+        </div>
+        
     
     </body>
 </html>

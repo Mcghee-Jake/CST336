@@ -1,0 +1,11 @@
+.center {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.shrink {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
