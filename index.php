@@ -34,5 +34,7 @@ echo "Jake McGhee's CST 336 Internet Programming";
 <a href="homework2/index.php">Homework 2</a>
 <br>
 <a href="homework3/index.php">Homework 3</a>
+<br>
+<a href="homework4/index.html">Homework 4</a>
 
 </html>

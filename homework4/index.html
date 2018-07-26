@@ -1,0 +1,69 @@
+<html>
+	<head>
+		<title>Rock Paper Scissors</title>
+		<link rel="stylesheet" type="text/css" href="rps.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	</head>
+	<body onload="init()">
+		<div id="gameWindow">
+			
+			<div id="introScreen">
+				<div id="introScreenContent">
+					<h1>Rock Paper Scissors</h1>
+					<br>
+					<div id="btnStart" class="button">Start Game</div>
+				</div>
+			</div>
+			
+			<div id="endScreen">
+				<div id="endScreenContent">
+					<h1 id="textEndTitle"></h1>
+					<h1 id="textEndMessage"></h1>
+					<div id="btnReplay" class="button">Play Again</div>
+				</div>
+			</div>
+			
+			<div id="btnGo">GO</div>
+
+			<div id="playerPanel">
+				<h2>Player</h2>
+				<img id="imgPlayer" src="images/question.png">
+				<br><br>
+				<div id="btnRock" class="iconButton">
+					<img src="images/rock.png">
+					<br>Rock
+				</div>
+				<div id="btnPaper" class="iconButton">
+					<img src="images/paper.png">
+					<br>Paper
+				</div>
+				<div id="btnScissors" class="iconButton">
+					<img src="images/scissors.png">
+					<br>Scissors
+				</div>
+			</div>
+
+			<div id="computerPanel">
+				<h2>Computer</h2>
+				<img id="imgComputer" src="images/question.png">
+				<br><br>
+				<div id="lblRock" class="iconLabel">
+					<img src="images/rock.png">
+					<br>Rock
+				</div>
+				<div id="lblPaper" class="iconLabel">
+					<img src="images/paper.png">
+					<br>Paper
+				</div>
+				<div id="lblScissors" class="iconLabel">
+					<img src="images/scissors.png">
+					<br>Scissors
+				</div>
+			</div>
+
+			
+		</div>
+		<script language="javascript" type="text/javascript" src="rps.js"></script>
+	</body>
+</html>
+
