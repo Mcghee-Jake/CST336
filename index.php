@@ -26,6 +26,8 @@ echo "Jake McGhee's CST 336 Internet Programming";
 <br>
 <a href="hangman/index.html">Lab 7</a>
 <br>
+<a href="pets/index.php">Lab 8</a>
+<br>
 
 <h2> Homework </h2>
 

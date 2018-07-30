@@ -1,0 +1,6 @@
+[30-Jul-2018 18:36:55 UTC] PHP Fatal error:  Call to undefined function getDatabaseConection() in /home/ubuntu/workspace/CST336/pets/api/getPetInfo.php on line 4
+[30-Jul-2018 18:36:55 UTC] PHP Stack trace:
+[30-Jul-2018 18:36:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/pets/api/getPetInfo.php:0
+[30-Jul-2018 18:37:07 UTC] PHP Fatal error:  Call to undefined function getDatabaseConection() in /home/ubuntu/workspace/CST336/pets/api/getPetInfo.php on line 4
+[30-Jul-2018 18:37:07 UTC] PHP Stack trace:
+[30-Jul-2018 18:37:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336/pets/api/getPetInfo.php:0
