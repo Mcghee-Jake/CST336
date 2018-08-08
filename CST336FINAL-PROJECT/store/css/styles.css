@@ -1,0 +1,82 @@
+.navbar {
+    background-color: #043308;
+}
+
+.dropdown-menu {
+    width: 300px !important;
+}
+
+.dropdown-header {
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.navbar-btn {
+    background-color: #fff;
+    font-weight: 500 !important;
+}
+
+.navbar-btn:hover {
+    background-color: #19db04;
+    color: #fff;
+}
+
+.dropdown-toggle {
+    color: #fff !important;
+}
+
+
+.dropdown-toggle::after {
+    display: none !important;
+}
+
+.navbar-form-header {
+    font-weight: 500;
+}
+
+.quantity-entry {
+    width: 60px !important;
+    text-align: center;
+}
+
+.cart {
+    color: #fff;
+    text-decoration: none;
+}
+
+.cart:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.checkout-form {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+.error-msg {
+    color: #dd0000;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+#teeny-shop, #of {
+    font-family: 'Luckiest Guy', cursive;
+}
+
+#of {
+    font-size: .7em;
+}
+
+#horrors {
+    font-family: 'Nosifer', cursive;
+}
+
+#intro-text {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+

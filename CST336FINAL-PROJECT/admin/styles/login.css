@@ -1,0 +1,115 @@
+ #mainDiv {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 700px;
+  height: 600px;
+  text-align: center;
+  margin: auto;
+ }
+
+ form {
+  border: 3px solid #f1f1f1;
+ }
+
+ input[type=text],
+ input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+ }
+
+ button {
+
+  width: 100%;
+ }
+
+ .bottom {
+  padding-top: 10px;
+  padding-bottom: 50px;
+ }
+
+ button:hover {
+  opacity: 0.8;
+
+ }
+
+ .imgcontainer {
+  margin: 24px 0 12px 0;
+  text-align: center;
+  /*margin: auto;*/
+ }
+
+ img.avatar {
+  width: 5%;
+  border-radius: 50%;
+
+ }
+
+ .container {
+  max-width: 50%;
+
+ }
+
+ span.psw {
+  float: right;
+  padding-top: 16px;
+ }
+
+ @media screen and (max-width: 300px) {
+  span.psw {
+   display: block;
+   float: none;
+  }
+
+ }
+
+
+ label {
+  float: left;
+  font-weight: bold;
+  font-size: 25px;
+ }
+
+ .navbar-btn {
+  background-color: #fff;
+  font-weight: 500 !important;
+ }
+
+ .navbar-btn:hover {
+  background-color: #19db04;
+  color: #fff;
+ }
+
+ .navbar {
+  background-color: #043308;
+  height: 60px;
+ }
+
+ #teeny-shop,
+ #of {
+  font-family: 'Luckiest Guy', cursive;
+ }
+
+ #of {
+  font-size: .7em;
+ }
+
+ #horrors {
+  font-family: 'Nosifer', cursive;
+ }
+
+ span {
+  color: white;
+ }
+
+ .navbar {
+  width: auto;
+ }
+
+ a input {
+  float: right;
+  margin-right: 10px;
+ }
+ 

@@ -1,0 +1,71 @@
+.navbar-btn {
+ background-color: #fff;
+ font-weight: 500 !important;
+}
+
+.navbar-btn:hover {
+ background-color: #19db04;
+ color: #fff;
+}
+
+.navbar {
+ background-color: #043308;
+ height: 60px;
+}
+
+#teeny-shop,
+#of {
+ font-family: 'Luckiest Guy', cursive;
+}
+
+#of {
+ font-size: .7em;
+}
+
+#horrors {
+ font-family: 'Nosifer', cursive;
+}
+
+span {
+ color: white;
+}
+
+.navbar {
+ width: auto;
+}
+
+a input {
+ float: right;
+ margin-right: 10px;
+}
+
+img {
+ border: 1px solid #ddd;
+ border-radius: 4px;
+ padding: 5px;
+ width: 85px;
+}
+
+img:hover {
+ box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+#first {
+ height: 800px;
+ overflow: auto;
+}
+
+.container input {
+ margin-right: 20px;
+}
+
+.dropdown,
+.btn-info dropdown-toggle {
+ float: right;
+ margin-top: 10px;
+ margin-right: 35px;
+}
+
+#beginning{
+ margin-bottom: 10px;
+}
