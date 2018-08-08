@@ -29,6 +29,7 @@ echo "Jake McGhee's CST 336 Internet Programming";
 <a href="pets/index.php">Lab 8</a>
 <br>
 
+
 <h2> Homework </h2>
 
 <a href="homework1/index.html">Homework 1</a>
@@ -38,5 +39,10 @@ echo "Jake McGhee's CST 336 Internet Programming";
 <a href="homework3/index.php">Homework 3</a>
 <br>
 <a href="homework4/index.html">Homework 4</a>
+<br>
+
+<h2> Final </h2>
+<a href="CST336FINAL-PROJECT/store/index.php">Final Project</a>
+<br>
 
 </html>
